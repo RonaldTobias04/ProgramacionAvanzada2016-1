@@ -119,3 +119,6 @@ If the condition above is met, we will return false because it means that the nu
 If the division is not exact we will decrease the divisor 1 number so we can continue with the successive divisions until one of the conditions can be met. 
 
 Also, in the project it is a method with “x” as parameter (x is the number that will be evaluated). This method calls the “Prim” function so we can return the result. 
+
+####Invert a queue
+To resolve this exercise, first you need to create a new stack to save all the values for invert the queue, so we need to empty all the values of the queue using the fuction Dequeue and aggregate all the values in the new stack using the function Push. Then when you empty all the queue and the stack is full, you start to empty the stack using the function Pop and refill the queue using the function Queue. This is the algorithm for invert a queue.
